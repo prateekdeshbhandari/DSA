@@ -7,11 +7,11 @@ import java.util.Scanner;
 
 @ToString
 
-public class TwoSumSolution {
+public class TwoSumSolutionQ1 {
 
     public static void main(String[] args) {
 
-        TwoSumSolution twoSumSolution=new TwoSumSolution();
+        TwoSumSolutionQ1 twoSumSolution=new TwoSumSolutionQ1();
 
         try {
             Scanner sc=new Scanner(System.in);
