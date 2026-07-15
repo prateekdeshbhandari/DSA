@@ -1,9 +1,9 @@
-package com.xworkz.dsa.runner;
+package com.xworkz.dsa.quctions;
 
 import lombok.ToString;
 
-import java.lang.reflect.Array;
 import java.util.Arrays;
+import java.util.Scanner;
 
 @ToString
 
@@ -12,9 +12,20 @@ public class TwoSumSolution {
     public static void main(String[] args) {
 
         TwoSumSolution twoSumSolution=new TwoSumSolution();
+
         try {
-            int[] nums={3,5,8,0};
-            int[] result = twoSumSolution.twoSum(nums, 5);
+            Scanner sc=new Scanner(System.in);
+            //int[] nums={3,5,8,0};
+            System.out.println("number is size:");
+            int n= sc.nextInt();
+            int[] nums=new int[n];
+            System.out.println("n element");
+for (int i=0;i<n;i++){
+    nums[i]=sc.nextInt();
+}
+            System.out.println("target is:");
+            int target= sc.nextInt();
+            int[] result = twoSumSolution.twoSum(nums, target);
             System.out.println(Arrays.toString(result));
         }catch (NullPointerException e){
             System.out.println(e);
