@@ -27,6 +27,8 @@ public  class SortAndDuplicatevalues {
             Arrays.sort(arr);
 
             return new String(arr);
+
+
         }
     }
 
