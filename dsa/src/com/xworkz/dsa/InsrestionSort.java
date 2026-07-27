@@ -14,5 +14,8 @@ public class InsrestionSort {
         }
         arr[j+1] = key;
         }
+        for (int ssss:arr) {
+            System.out.println(ssss);
+        }
     }
 }
