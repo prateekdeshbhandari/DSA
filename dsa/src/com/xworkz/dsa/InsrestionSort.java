@@ -13,9 +13,11 @@ public class InsrestionSort {
             j = j-1;
         }
         arr[j+1] = key;
+            System.out.println("mnvfjg");
+            for (int ssss:arr) {
+                System.out.println(ssss);
         }
-        for (int ssss:arr) {
-            System.out.println(ssss);
+
         }
     }
 }

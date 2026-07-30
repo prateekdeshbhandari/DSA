@@ -21,7 +21,10 @@ public class SelectionSort {
             arr[i]=temp;
 
             System.out.println("after sorting: ");
+            for (int ssss:arr) {
 
+                System.out.println(" " + ssss);
+            }
 
 
         }
